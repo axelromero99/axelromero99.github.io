@@ -72,6 +72,20 @@
         height: 700px;
     }
 
+    .title-container{
+        height:110px;
+    }
+
+    #dondeNos{
+        padding-top:15px;
+    }
+
+
+
+    #ubicacionIndexContenedor{
+        padding-top:150px;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -82,6 +96,21 @@
 
     .oneCardIndex {
         height: 800px;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
+}
+
+@media (max-width: 476px) {
+
+    .oneIndex {
+        height: 1350px;
+    }
+
+    .oneCardIndex {
+        height: 860px;
         align-items: center;
         text-align: center;
         align-content: center;
