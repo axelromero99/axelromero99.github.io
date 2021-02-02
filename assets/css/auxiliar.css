@@ -1,0 +1,114 @@
+.title-container {
+    width: 100%;
+    background-color: var(--secondary-color);
+    height: 75px;
+    z-index: 4;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.title-container h2 {
+    padding-top: 22px;
+}
+
+.description-container {
+    width: 100%;
+    background-color: var(--white-color);
+    padding-top: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.portfolio-details .portfolio-description p {
+    padding: 0px 30px 0px 30px;
+}
+
+.principal-cards {
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+}
+
+.containerAnimacionPrincipal {
+    padding-top: 45px;
+
+}
+
+.item {
+    border: 1px solid grey;
+    max-height: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.w-100 {
+    padding-top: 50px;
+    width: 100% !important;
+}
+
+.description-container.direccion{
+    padding-top: 0px;
+}
+
+@media(max-width:996px){
+    .w-100 {
+        padding-top: 30px;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .principal-cards {
+        height: 70vh;
+        text-align: center;
+    }
+
+    .oneIndex {
+        height: 1100px;
+    }
+
+    .oneCardIndex {
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .oneIndex {
+        height: 1200px;
+    }
+
+    .oneCardIndex {
+        height: 800px;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
+}
+/* double-column */
+
+.double-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.back-to-top i:hover {
+    background: var(--quaternary-color);
+    color: white;
+}
+
+#direccionIndex{
+    padding-bottom: 35px;
+}
+
+.indexTitle{
+    padding-top:2px;
+}
+
+#spanIndex{
+    color:white;
+}
